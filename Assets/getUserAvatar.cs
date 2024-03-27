@@ -9,7 +9,7 @@ public class getUserAvatar : MonoBehaviour
     {
         int index = SelecionarPersonagem.characterIndex;
         string name = SelecionarPersonagem.characterName;
-        Debug.Log($"Saiu da tela de Usuário - index: {index}, name: {name}");
+        Debug.Log($"Saiu da tela de usuário - index: {index}, name: {name}");
     }
 
     // Update is called once per frame
