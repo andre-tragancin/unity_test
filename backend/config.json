@@ -1,0 +1,3 @@
+{
+    "postgres_url": "postgresql://admin:admin123@localhost/pensar_jogar"
+}
