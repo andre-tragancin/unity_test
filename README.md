@@ -17,6 +17,19 @@ Get-ExecutionPolicy
 Set-ExecutionPolicy RemoteSigned
 ```
 
+# Executar script install-project
+
+Esse script ira criar um ambiente virtual python e já instalar as bibliotecas  necessárias para rodar o projeto
+>TODO - no futuro adicionar a instalação do python3.12.
+
+Usando o script:
+```
+cd backend
+.\scripts\install-project.ps1
+```
+
+
+
 # Adicionar o postgres como variavel de ambiente para o comando pgsql ser reconhecido no powershell
 
 ```
@@ -36,6 +49,7 @@ psql -U admin -d pensar_jogar
 * CTRL + SHIFT + P
 * Python: Selecte Interpreter
 * Selecionar o .exe que está dentro de /venv/Scripts/python.exe
+
 
 # Comandos Alembic
 
