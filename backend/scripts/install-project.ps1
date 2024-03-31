@@ -21,3 +21,13 @@ if (Test-Path .\venv) {
 virtualenv --python="$pythonPath" venv
 
 .\venv\Scripts\pip install -r .\requirements.txt
+
+$runScript = @"
+param(
+    [string]`$scriptPath = "main.py"
+)
+
+python `$scriptPath
+"@
+
+$runScript | Out-File -FilePath ./venv/Scripts/run-project.ps1 -Encoding utf8

@@ -1,4 +1,5 @@
 from db.db_connection import DBConnection
+import os
 
 def connectDB():
     db_connection = DBConnection()
@@ -14,6 +15,10 @@ def connectDB():
     except Exception as e:
         print("Error connecting:", e)
 
+def start_server():
+    os.system('uvicorn api.main:app --reload')
+
 
 if __name__== "__main__":
-    connectDB()
+    # connectDB()
+    start_server()

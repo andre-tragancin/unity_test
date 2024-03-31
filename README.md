@@ -47,7 +47,7 @@ psql -U admin -d pensar_jogar
 **Note:** se tiver usando vsCode, mudar o interpretador python para o python do venv
 
 * CTRL + SHIFT + P
-* Python: Selecte Interpreter
+* Python: Selected Interpreter
 * Selecionar o .exe que está dentro de /venv/Scripts/python.exe
 
 
