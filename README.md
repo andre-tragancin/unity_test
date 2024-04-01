@@ -61,3 +61,12 @@ cd backend
 ```
 .\venv\Scripts\alembic -c .\alembic\alembic.ini [comando alembic]
 ```
+
+
+# Executar o backend
+
+```
+cd backend
+./venv/Scripts/activate 
+rurun-project.ps1
+```
