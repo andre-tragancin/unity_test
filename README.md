@@ -68,5 +68,9 @@ cd backend
 ```
 cd backend
 ./venv/Scripts/activate 
-rurun-project.ps1
+run-project.ps1
 ```
+
+# Unity
+
+Executar em modo administrador
